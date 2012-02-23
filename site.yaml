@@ -1,6 +1,10 @@
+
 handlers:
 - url: '/'
   static_files: 'index.html'
   upload: '.*'
-- url: '/'
-  static_dir: '/'
+
+- url: '/resume'
+  static_files: 'resume/index.html'
+  upload: '.*'
+

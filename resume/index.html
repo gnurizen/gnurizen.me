@@ -7,6 +7,10 @@
 	  h3 {
 	  display:inline;
 	  }
+	  address {
+	  position: absolute;
+	  float:right;
+	  }
 	</style>
   </head>
   <body>
@@ -18,9 +22,9 @@
 		</div>
 	  </section>
 	  <section>
-		<h2>/work</h2>
+		<h2>/experience</h2>
 		<ul>
-		  <li class="experience vevent vcard">
+		  <div class="experience vevent vcard">
             <h3><span class="fn org">/adobe</span></h3>
              - <span class="summary">Senior Computer Scientist</span>
             <span class="location">San Francisco, CA</span>
@@ -29,19 +33,20 @@
               <time class="dtend" datetime="2011-12-01">December 2011</time>
             </span>
             <p class="description">
-			  Worked on Flash player virtual machine (<a href="https://developer.mozilla.org/en/Tamarin">Tamarin</a>).
 
 			  <ul>
+				<li>Worked on Flash player virtual machine (<a href="https://developer.mozilla.org/en/Tamarin">Tamarin</a>).</li>
 				<li>Wrote general purpose C++ <a href="https://developer.mozilla.org/en/MMgc">garbage  collector and memory manager</a></li>
 				<li>Wrote combined sample based <a href="http://livedocs.adobe.com/flex/3/html/help.html?content=profiler_3.html">performance
 					and memory profiler</a> with very low overhead (%5) and full insight in memory allocation sites</li>
 				<li>Worked on integrating with dtrace, valgrind and static analysis tools</li>   
 				<li>Last line in high profile crash and security bug escalation</li>
 				<li>Wrote C++ <a href="https://developer.mozilla.org/en/MMgc#Memory_Profiler">memory profiler</a> used extensively to optimize Flash's memory use</li>
+				<li>Contributed to design and implementation of Flex MXML/AS3 toolchain including extensive compiler optimizations</li>
 			  </ul>
             </p>
-          </li>
-		  <li class="experience vevent vcard">
+          </div>
+		  <div class="experience vevent vcard">
             <h3><span class="fn org">/macromedia</span></h3>
              - <span class="summary">Computer Scientist</span>
             <span class="location">San Francisco, CA</span>
@@ -58,8 +63,8 @@
 				<li>Wrote memory profiler for AS1/AS2 programs</li>
 			  </ul>
             </p>
-          </li>
-		  <li class="experience vevent vcard">
+          </div>
+		  <div class="experience vevent vcard">
             <h3><span class="fn org">/allaire</span></h3>
              - <span class="summary">Computer Scientist</span>
             <span class="location">Cambridge, MA</span>
@@ -74,8 +79,8 @@
 				<li>Managed team of 4 engineers.</li>
 			  </ul>
             </p>
-          </li>
-		  <li class="experience vevent vcard">
+          </div>
+		  <div class="experience vevent vcard">
             <h3><span class="fn org">/live software</span></h3>
              - <span class="summary">Engineer</span>
             <span class="location">Cupertino, CA</span>
@@ -92,29 +97,27 @@
 				<li>Spoke at many conferences and user groups etc on JSP.</li>
 				</ul>
             </p>
-          </li>
+          </div>
         </ul>
 	  </section>
 	  <section>
         <h2>/education</h2>
-        <ul class="vcalendar">
-          <li class="education vevent vcard">
-            <div class="fn org">University of Illinois at Urbana-Champaign</div>
-            <span class="summary">BS in Computer Science</span>
-            <span class="date_duration">
+		<ul>
+          <div class="education vevent vcard">
+			<span class="summary">BS Computer Science</span> -  <span class="fn org">University of Illinois at Urbana-Champaign</span>
+			<span class="date_duration">
               <time class="dtstart" datetime="1995-9-01">1995</time> -
               <time class="dtend" datetime="1998-12-01">1998</time>
-            </span>
-            <p class="description">
+			</span>
+			<p class="description">
 			  <ul>
 				<li>Worked on Unix version of Mosaic in the post-Andressen era, adding HTTP cache, background images (refused to implement blink tag).</li>
 				<li>Worked on AlphaShapes 3D modeling in Java (Wrote <a href="http://groups.google.com/group/comp.lang.java.api/browse_thread/thread/e71aa9a017557786/ef494bbcc0ff1950%3Fq%3D%2522Adam%2BKing%2522%23ef494bbcc0ff1950&ei=iGwTS6eaOpW8Qpmqic0O&sa=t&ct=res&cd=51&source=groups&usg=AFQjCNG5D9TglNKGsCK4uGtmvYnFno3rlw">JOGL</a>, now defunct open source Java bindings for OpenGL) </li>
 				<li>Wrote HTML interface combining professors <a href="http://adsabs.harvard.edu/full/1997PASP..109.1264M">stardial</a> image catalog with Harvard's star database so you could click on a star in an image and see all its information (internets first mashup?).</li>
 				<li>Graduated in 6 semesters while working practically fulltime</li>
-            </p>
-            <ul class="skillset">
-            </ul>
-          </li>
+			  </ul>
+			</p>
+		  </div>
 		</ul>
 	  </section>
 	  <section>

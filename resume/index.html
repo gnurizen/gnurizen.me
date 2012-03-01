@@ -2,14 +2,19 @@
 <html lang="en">
   <head>
 	<title>Tommy Reilly</title>
-	<meta name="keywords" content="systems, gc, garbage collection, flash, virtual machines, JIT"/>	
+	<meta name="keywords" content="systems, gc, garbage collection, flash, virtual machines, JIT"/>
+	<style>
+	  h3 {
+	  display:inline;
+	  }
+	</style>
   </head>
   <body>
 	<article class="hresume">
 	  <section>
 		<h2>/summary</h2>
 		<div class="summary">
-		  6 years experience working on open source Tamarin virtual machine deployed in Flash.  Spent 5 years before that doing server side C/Java programming.
+		  Experienced jack of all trades.  Last 6 years experience working on open source Tamarin virtual machine deployed in Flash.  Spent 5 years before that doing server side C/Java programming.
 		</div>
 	  </section>
 	  <section>
@@ -17,64 +22,75 @@
 		<ul>
 		  <li class="experience vevent vcard">
             <h3><span class="fn org">/adobe</span></h3>
-            <span class="summary">Senior Computer Scientist</span>
+             - <span class="summary">Senior Computer Scientist</span>
             <span class="location">San Francisco, CA</span>
             <span class="date_duration">
               <time class="dtstart" datetime="2005-4-01">April 2005</time> -
               <time class="dtend" datetime="2011-12-01">December 2011</time>
             </span>
             <p class="description">
-			  Worked on <a href="https://developer.mozilla.org/en/Tamarin">Tamarin</a>
-			  open source virtual machine.  Contributions:
+			  Worked on Flash player virtual machine (<a href="https://developer.mozilla.org/en/Tamarin">Tamarin</a>).
 
 			  <ul>
-				<li><a href="https://developer.mozilla.org/en/MMgc"/>garbage  collector and memory manager</a></li>
-<li>Wrote combined sample based <a href="http://livedocs.adobe.com/flex/3/html/help.html?content=profiler_3.html">performance
-			  and memory profiler</a></li>
-<li>Worked on integrating with Dtrace, valgrind.</li>   
-<li>Last line in Flash crash and high priority security bug squashing</li>
-<li>Wrote C++ <a href="https://developer.mozilla.org/en/MMgc#Memory_Profiler">memory profiler</a></li>
-</ul>
+				<li>Wrote general purpose C++ <a href="https://developer.mozilla.org/en/MMgc">garbage  collector and memory manager</a></li>
+				<li>Wrote combined sample based <a href="http://livedocs.adobe.com/flex/3/html/help.html?content=profiler_3.html">performance
+					and memory profiler</a> with very low overhead (%5) and full insight in memory allocation sites</li>
+				<li>Worked on integrating with dtrace, valgrind and static analysis tools</li>   
+				<li>Last line in high profile crash and security bug escalation</li>
+				<li>Wrote C++ <a href="https://developer.mozilla.org/en/MMgc#Memory_Profiler">memory profiler</a> used extensively to optimize Flash's memory use</li>
+			  </ul>
             </p>
           </li>
 		  <li class="experience vevent vcard">
             <h3><span class="fn org">/macromedia</span></h3>
-            <span class="summary">Computer Scientist</span>
+             - <span class="summary">Computer Scientist</span>
             <span class="location">San Francisco, CA</span>
             <span class="date_duration">
               <time class="dtstart" datetime="2001-1-1">January 2001</time> -
               <time class="dtend" datetime="2005-4-1">April 2005</time>
             </span>
             <p class="description">
-			  Worked on server side Java helping build JRun into a
-			  full fledged J2EE server, did some experiments with
-			  Flash video with and eventually landed on the Flash
-			  player team doing memory management after writing the
-			  first of many actionscript heap profilers.
+			  <ul>
+				<li>Worked on server side Java helping build JRun into a full fledged J2EE server</li>
+				<li>Developed fast simple test harness for JSP/Servlet specifications, test driven development</li>
+				<li>Optimized Flash's byte code interpreter significantly performance and memory usage.</li>
+				<li>Implemented deferred reference counting in interpreter.</li>
+				<li>Wrote memory profiler for AS1/AS2 programs</li>
+			  </ul>
             </p>
           </li>
 		  <li class="experience vevent vcard">
             <h3><span class="fn org">/allaire</span></h3>
-            <span class="summary">Computer Scientist</span>
+             - <span class="summary">Computer Scientist</span>
             <span class="location">Cambridge, MA</span>
             <span class="date_duration">
               <time class="dtstart" datetime="1999-6-01">June 1999</time> -
               <time class="dtend" datetime="2001-1-01">January 2001</time>
             </span>
             <p class="description">
-			  Ongoing JSP work including major contributions to JSP 1.1 and 1.2.  
+			  <ul>
+				<li>Continued to be JSP lead including major contributions to JSP 1.1 and 1.2 and Servlet specifications.</li>
+				<li>Spearheaded JST's and JSP as XML efforts.</li>
+				<li>Managed team of 4 engineers.</li>
+			  </ul>
             </p>
           </li>
 		  <li class="experience vevent vcard">
             <h3><span class="fn org">/live software</span></h3>
-            <span class="summary">Engineer</span>
+             - <span class="summary">Engineer</span>
             <span class="location">Cupertino, CA</span>
             <span class="date_duration">
               <time class="dtstart" datetime="1999-1-01">January 1999</time> -
               <time class="dtend" datetime="1999-6-01">June 1999</time>
             </span>
             <p class="description">
-			  Implemented first commercial JSP 1.0 engine refactoring Paul's original "JRun Server Pages". Worked on everything from tech support, web server integration to server plumbing.
+			  <ul>
+				<li>Joined 6 person startup on a one way ticket to San Jose after graduation, <a href="http://news.cnet.com/Allaire-livens-up-Java-with-Live-Software-buy/2100-1017_3-227129.html">acquired</a> by Allaire 6 months later</li>
+				<li>Implemented first commercial JSP 1.0</li> 
+				<li>Worked on everything from tech support, customer consulting, web server integration, thread/socket modeling</li>
+				<li>Contributed to prototype of ColdFusion running ontop of Java</li>
+				<li>Spoke at many conferences and user groups etc on JSP.</li>
+				</ul>
             </p>
           </li>
         </ul>
@@ -90,7 +106,10 @@
               <time class="dtend" datetime="1998-12-01">1998</time>
             </span>
             <p class="description">
-			  Got to take a handful of interesting classes while working on Mosaic and early web site builder Neoglyphics.   Wrote JOGL, open source Java bindings for OpenGL.
+			  <ul>
+				<li>Worked on Unix version of Mosaic in the post-Andressen era, adding HTTP cache, background images (refused to implement blink tag).</li>
+				<li>Worked on AlphaShapes 3D modeling in Java (Wrote <a href="http://groups.google.com/group/comp.lang.java.api/browse_thread/thread/e71aa9a017557786/ef494bbcc0ff1950%3Fq%3D%2522Adam%2BKing%2522%23ef494bbcc0ff1950&ei=iGwTS6eaOpW8Qpmqic0O&sa=t&ct=res&cd=51&source=groups&usg=AFQjCNG5D9TglNKGsCK4uGtmvYnFno3rlw">JOGL</a>, now defunct open source Java bindings for OpenGL) </li>
+				<li>Wrote HTML interface combining professors <a href="http://adsabs.harvard.edu/full/1997PASP..109.1264M">stardial</a> image catalog with Harvard's star database so you could click on a star in an image and see all its information (internets first mashup?).</li>
             </p>
             <ul class="skillset">
             </ul>
